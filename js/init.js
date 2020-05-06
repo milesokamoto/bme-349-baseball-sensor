@@ -230,18 +230,12 @@ function init(){
     f1 = gui.addFolder( "Pressure" );
     f1.add( params, 'P1', 0, 25, .1 ).onChange( function ( val ) {
       sensors[0].color.setRGB((params.P1*4)/100, 0,(100-params.P1*4)/100);
-      console.log((params.P1*4)/100)
-      console.log((100-params.P1*4)/100)
     } );
     f1.add( params, 'P2', 0, 25, .1 ).onChange( function ( val ) {
       sensors[1].color.setRGB((params.P2*4)/100, 0,(100-params.P2*4)/100);
-      console.log((params.P2*4)/100)
-      console.log((100-params.P2*4)/100)
     } );
     f1.add( params, 'P3', 0, 25, .1 ).onChange( function ( val ) {
       sensors[2].color.setRGB((params.P3*4)/100, 0,(100-params.P3*4)/100);
-      console.log((params.P3*4)/100)
-      console.log((100-params.P3*4)/100)
     } );
     f1.add( params, 'P4', 0, 25, .1 ).onChange( function ( val ) {
       sensors[3].color.setRGB((params.P4*4)/100, 0,(100-params.P4*4)/100);
@@ -250,63 +244,39 @@ function init(){
     } );
     f1.add( params, 'P5', 0, 25, .1 ).onChange( function ( val ) {
       sensors[4].color.setRGB((params.P5*4)/100, 0,(100-params.P5*4)/100);
-      console.log((params.P5*4)/100)
-      console.log((100-params.P5*4)/100)
     } );
     f1.add( params, 'P6', 0, 25, .1 ).onChange( function ( val ) {
       sensors[5].color.setRGB((params.P6*4)/100, 0,(100-params.P6*4)/100);
-      console.log((params.P6*4)/100)
-      console.log((100-params.P6*4)/100)
     } );
     f1.add( params, 'P7', 0, 25, .1 ).onChange( function ( val ) {
       sensors[6].color.setRGB((params.P7*4)/100, 0,(100-params.P7*4)/100);
-      console.log((params.P7*4)/100)
-      console.log((100-params.P7*4)/100)
     } );
     f1.add( params, 'P8', 0, 25, .1 ).onChange( function ( val ) {
       sensors[7].color.setRGB((params.P8*4)/100, 0,(100-params.P8*4)/100);
-      console.log((params.P8*4)/100)
-      console.log((100-params.P8*4)/100)
     } );
     f1.add( params, 'P9', 0, 25, .1 ).onChange( function ( val ) {
       sensors[8].color.setRGB((params.P9*4)/100, 0,(100-params.P9*4)/100);
-      console.log((params.P9*4)/100)
-      console.log((100-params.P9*4)/100)
     } );
     f1.add( params, 'P10', 0, 25, .1 ).onChange( function ( val ) {
       sensors[9].color.setRGB((params.P10*4)/100, 0,(100-params.P10*4)/100);
-      console.log((params.P10*4)/100)
-      console.log((100-params.P10*4)/100)
     } );
     f1.add( params, 'P11', 0, 25, .1 ).onChange( function ( val ) {
       sensors[10].color.setRGB((params.P11*4)/100, 0,(100-params.P11*4)/100);
-      console.log((params.P11*4)/100)
-      console.log((100-params.P11*4)/100)
     } );
     f1.add( params, 'P12', 0, 25, .1 ).onChange( function ( val ) {
       sensors[11].color.setRGB((params.P12*4)/100, 0,(100-params.P12*4)/100);
-      console.log((params.P12*4)/100)
-      console.log((100-params.P12*4)/100)
     } );
     f1.add( params, 'P13', 0, 25, .1 ).onChange( function ( val ) {
       sensors[12].color.setRGB((params.P13*4)/100, 0,(100-params.P13*4)/100);
-      console.log((params.P13*4)/100)
-      console.log((100-params.P13*4)/100)
     } );
     f1.add( params, 'P14', 0, 25, .1 ).onChange( function ( val ) {
       sensors[13].color.setRGB((params.P14*4)/100, 0,(100-params.P14*4)/100);
-      console.log((params.P14*4)/100)
-      console.log((100-params.P14*4)/100)
     } );
     f1.add( params, 'P15', 0, 25, .1 ).onChange( function ( val ) {
       sensors[14].color.setRGB((params.P15*4)/100, 0,(100-params.P15*4)/100);
-      console.log((params.P15*4)/100)
-      console.log((100-params.P15*4)/100)
     } );
     f1.add( params, 'P16', 0, 25, .1 ).onChange( function ( val ) {
       sensors[15].color.setRGB((params.P16*4)/100, 0,(100-params.P16*4)/100);
-      console.log((params.P16*4)/100)
-      console.log((100-params.P16*4)/100)
     } );
 
     let launched = false;
